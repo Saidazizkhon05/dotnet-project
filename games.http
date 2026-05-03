@@ -1,0 +1,29 @@
+###
+GET http://0.0.0.0:5194/games
+
+###
+GET http://0.0.0.0:5194/games/4
+
+###
+POST http://0.0.0.0:5194/games
+Content-Type: application/json
+
+{
+    "name" : "Subway Surfers",
+    "price" : 100.01,
+    "releaseDate" : "2025-01-01"
+}
+
+###
+PUT http://0.0.0.0:5194/games/2
+Content-Type: application/json 
+
+{
+    "name": "Free Fire: Ending Game",
+    "price": 29.99,
+    "releaseDate": "2025-07-01"
+}
+
+###
+DELETE http://0.0.0.0:5194/games/2
+
