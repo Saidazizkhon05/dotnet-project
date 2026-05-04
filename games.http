@@ -10,6 +10,7 @@ Content-Type: application/json
 
 {
     "name" : "Subway Surfers",
+    "genre" : "Arcade",
     "price" : 100.01,
     "releaseDate" : "2025-01-01"
 }
@@ -20,6 +21,7 @@ Content-Type: application/json
 
 {
     "name": "Free Fire: Ending Game",
+    "genre": "Battle Royale",
     "price": 29.99,
     "releaseDate": "2025-07-01"
 }

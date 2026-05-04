@@ -8,16 +8,19 @@ public static class GamesEndpoints
     private static readonly List<GameDto> games = [
     new (1,
         "Pubg Mobile",
+        "Shooter",
         19.99,
         new DateOnly(2000, 7,1)
     ),
     new (2,
             "Free Fire",
+            "Shooter",
             0.00,
             new DateOnly(2021, 7,1)
         ),
     new (3,
             "Real Racing 3",
+            "Racing",
             99.99,
             new DateOnly(2005, 7,1)
         ),
@@ -48,6 +51,7 @@ public static class GamesEndpoints
             GameDto game = new(
                 games.Count + 1,
                 newGame.Name,
+                newGame.Genre,
                 newGame.Price,
                 newGame.ReleaseDate
                 );
@@ -70,6 +74,7 @@ public static class GamesEndpoints
             games[index] = new GameDto(
                 id,
                 updatedGame.Name,
+                updatedGame.Genre,
                 updatedGame.Price,
                 updatedGame.ReleaseDate
             );
