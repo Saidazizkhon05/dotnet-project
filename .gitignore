@@ -18,3 +18,19 @@ obj/
 # User secrets
 secrets.json
 appsettings.Local.json
+.env
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Test results
+TestResults/
+
+# Logs
+*.log
+nohup.out
+
+# NuGet
+*.nupkg
