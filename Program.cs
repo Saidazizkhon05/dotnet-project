@@ -5,10 +5,7 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddValidation();
 
-string connectionString = "Data Source=Gamestore.db";
-
-builder.Services.AddSqlite<GameStoreContext>(connectionString);
-
+builder.AddGameStoreDb();
 
 WebApplication app = builder.Build();
 
