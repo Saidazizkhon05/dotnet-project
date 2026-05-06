@@ -10,7 +10,7 @@ Content-Type: application/json
 
 {
     "name" : "Subway Surfers",
-    "genre" : "Arcade",
+    "genreId" : 2,
     "price" : 100.01,
     "releaseDate" : "2025-01-01"
 }
